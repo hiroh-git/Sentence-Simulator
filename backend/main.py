@@ -31,7 +31,7 @@ app = FastAPI(lifespan=lifespan)
 # ---------------------------------------------------------
 origins = [
     "http://localhost:5173",
-    "*" # 一時的にすべて許可 (デプロイ成功後にVercelのURLに変更!!)
+    "https://sentence-simulator.onrender.com"
 ]
 
 app.add_middleware(
