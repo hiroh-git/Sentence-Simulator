@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="container">
       <h1>シェイクスピア風 文章生成器</h1>
-      <p>MCMCモデルによる文章生成</p>
+      <p>Markovモデルによる文章生成</p>
       
       <div className="card">
         <div className="input-group">
