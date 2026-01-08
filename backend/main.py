@@ -31,7 +31,7 @@ app = FastAPI(lifespan=lifespan)
 # ---------------------------------------------------------
 origins = [
     "http://localhost:5173",
-    "https://sentence-simulator.onrender.com"
+    "https://sentence-simulator.vercel.app"
 ]
 
 app.add_middleware(
